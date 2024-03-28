@@ -72,12 +72,10 @@ The work delves into tumor classification, an important aspect of brain tumor re
 ![image](https://github.com/devrajchauhan/Brain-Tumor-Classification-and-Segmentation/assets/52530743/f11b95a4-9a6a-44b0-a8bc-22ff90a6e12e)
 
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-
-
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-**Results:** 
+**RESULTS:** 
 
 
 In our project, we have explored different approaches for brain tumor classification using transfer learning techniques and custom CNN architectures. Here's a detailed breakdown of the results weachieved:
@@ -97,5 +95,16 @@ We loaded a pre-trained VGG16 model and adapted it for 1-channel input. Specific
 **UNet for Segmentation:**
 We implemented a UNet architecture to segment tumor regions in MRI images. The segmentation achieved an accuracy of 99%.
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+**FUTURE DIRECTIONS:**
+
+Further analysis could involve investigating the impact of combining classification and segmentation models for a more comprehensive approach. We can explore additional data augmentation techniques to improve model robustness. Evaluating the generalization of our models on external datasets or in clinical settings is essential to validate their practical utility.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+**CONCLUSION:**
+The project successfully addressed the challenge of brain tumor classification and segmentation using a variety of deep-learning techniques. We achieved competitive results with custom CNN architectures, modified pre-trained models, and UNet-based segmentation. These findings contribute to the field of medical image analysis and offer insights into the importance of segmentation for improved classification performance. Further research and refinement of these models have the potential to aid in clinical diagnosis and treatment planning for brain tumors.
 
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
