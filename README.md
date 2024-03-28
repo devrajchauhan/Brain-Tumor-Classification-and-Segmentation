@@ -19,16 +19,25 @@ cjdata.tumorBorder: a vector storing the coordinates of discrete points on tumor
 cjdata.tumorMask: a binary image with 1s indicating tumor region
 
 
-**ABSTRACT:** This research project focuses on brain tumor analysis using a combination of custom convolutional neural network (CNN) architectures, transfer learning, and image segmentation techniques The main goal is twofold: accurate brain tumor classification and tumor accurate zone segmentation from MRI images. The custom CNN image and pre-trained images are used and optimized for grayscale MRI images for classification. These models receive extensive training and evaluation, resulting in promising levels of accuracy. In parallel, the U-Net algorithm is used to achieve high tumor area segmentation accuracy. This comprehensive approach provides valuable insight into the specific diagnosis and location of brain tumors and contributes to advances in medical imaging studies
+**ABSTRACT:** 
 
-**INTRODUCTION:** Brain tumors pose a serious threat to public health, such that accurate and timely diagnosis is required for effective treatment strategies. Magnetic resonance imaging (MRI) has become a cornerstone for the diagnosis and evaluation of brain tumors due to its non-invasive properties and imaging resolution but analysis of MRI data, especially tumor classification and accurate tumor segmentation is still lacking still strong and difficult.
+This research project focuses on brain tumor analysis using a combination of custom convolutional neural network (CNN) architectures, transfer learning, and image segmentation techniques The main goal is twofold: accurate brain tumor classification and tumor accurate zone segmentation from MRI images. The custom CNN image and pre-trained images are used and optimized for grayscale MRI images for classification. These models receive extensive training and evaluation, resulting in promising levels of accuracy. In parallel, the U-Net algorithm is used to achieve high tumor area segmentation accuracy. This comprehensive approach provides valuable insight into the specific diagnosis and location of brain tumors and contributes to advances in medical imaging studies
+
+
+**INTRODUCTION:** 
+
+Brain tumors pose a serious threat to public health, such that accurate and timely diagnosis is required for effective treatment strategies. Magnetic resonance imaging (MRI) has become a cornerstone for the diagnosis and evaluation of brain tumors due to its non-invasive properties and imaging resolution but analysis of MRI data, especially tumor classification and accurate tumor segmentation is still lacking still strong and difficult.
 This research work addresses the need for robust and accurate brain tumor detection through advances in deep learning, particularly convolutional neural networks (CNNs) and improvements in feature learning techniques applied to in other fields. The main objective of this study is to develop an integrated algorithm that combines a standard CNN algorithm with state-of-the-art pre-trained images, optimized for high-resolution MRI images, with image background classification, in particular system using U-Net together
 
+
 **Tumor Classification:**
+
 The initial phase of the project focuses on brain tumor classification. Custom CNN architectures, inspired by prior research, are designed, and trained on a dataset of 128x128 pixel grayscale MRI images. To enhance the model's ability to classify tumors accurately, preprocessing steps include tumor region segmentation based on masks, extending the segmentation to adjacent tissues, and selecting the most effective expansion factor. This approach aims to maximize classification accuracy and aid in precise tumor localization.
 This research is primarily concerned with the classification of brain tumors. The customized CNN algorithms are carefully designed and trained on a dataset of 128x128 pixel grayscale MRI images. However, there are important preliminary steps in the journey to successful classification. Motivated by previous research, we apply a mask-based tumor classification method. This mask defines the tumor boundaries on the MRI images, helping to accurately localize the infection. Furthermore, we extend this classification to include adjacent healthy neurons, another approach that shows great promise in improving classification accuracy. By strongly detecting different expansion factors, we optimize the ability of the model to distinguish tumor from non-tumor regions, thereby increasing the accuracy of analysis
 
+
 **Transfer Learning:**
+
 In addition to custom CNNs, pre-trained models such as ResNet-18, ResNet-50, DenseNet121, VGG19, and VGG16 are adapted to the task. These models are modified to accommodate grayscale images and tailored to classify MRI images into one of three tumor categories. By leveraging transfer learning, the research explores whether pre-trained models can improve classification performance and reduce training time compared to training from scratch.
 
 **Tumor Segmentation:**
