@@ -104,6 +104,8 @@ Further analysis could involve investigating the impact of combining classificat
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 **CONCLUSION:**
+
+
 The project successfully addressed the challenge of brain tumor classification and segmentation using a variety of deep-learning techniques. We achieved competitive results with custom CNN architectures, modified pre-trained models, and UNet-based segmentation. These findings contribute to the field of medical image analysis and offer insights into the importance of segmentation for improved classification performance. Further research and refinement of these models have the potential to aid in clinical diagnosis and treatment planning for brain tumors.
 
 
