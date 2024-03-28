@@ -1,2 +1,4 @@
 # Brain-Tumor-Classification-and-Segmentation
 Integrated Brain Tumor Classification and Segmentation using Custom CNN Architectures and Transfer Learning
+
+This research project focuses on brain tumor analysis using a combination of custom convolutional neural network (CNN) architectures, transfer learning, and image segmentation techniques The main goal is twofold: accurate brain tumor classification and tumor accurate zone segmentation from MRI images. The custom CNN image and pre-trained images are used and optimized for grayscale MRI images for classification. These models receive extensive training and evaluation, resulting in promising levels of accuracy. In parallel, the U-Net algorithm is used to achieve high tumor area segmentation accuracy. This comprehensive approach provides valuable insight into the specific diagnosis and location of brain tumors and contributes to advances in medical imaging studies
