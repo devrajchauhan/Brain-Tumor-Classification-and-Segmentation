@@ -1,7 +1,7 @@
 # Brain-Tumor-Classification-and-Segmentation
-Title: Integrated Brain Tumor Classification and Segmentation using Custom CNN Architectures and Transfer Learning
+**Title:** Integrated Brain Tumor Classification and Segmentation using Custom CNN Architectures and Transfer Learning
 
-Dataset Used: https://figshare.com/articles/dataset/brain_tumor_dataset/1512427
+**Dataset Used:** https://figshare.com/articles/dataset/brain_tumor_dataset/1512427
 
 This brain tumor dataset containing 3064 T1-weighted contrast-inhanced images from 233 patients with three kinds of brain tumor: meningioma (708 slices), 
 glioma (1426 slices), and pituitary tumor (930 slices). Due to the file size limit of repository, we split the whole dataset into 4 subsets, and achive 
@@ -19,4 +19,4 @@ cjdata.tumorBorder: a vector storing the coordinates of discrete points on tumor
 cjdata.tumorMask: a binary image with 1s indicating tumor region
 
 
-ABSTRACT: This research project focuses on brain tumor analysis using a combination of custom convolutional neural network (CNN) architectures, transfer learning, and image segmentation techniques The main goal is twofold: accurate brain tumor classification and tumor accurate zone segmentation from MRI images. The custom CNN image and pre-trained images are used and optimized for grayscale MRI images for classification. These models receive extensive training and evaluation, resulting in promising levels of accuracy. In parallel, the U-Net algorithm is used to achieve high tumor area segmentation accuracy. This comprehensive approach provides valuable insight into the specific diagnosis and location of brain tumors and contributes to advances in medical imaging studies
+**ABSTRACT:** This research project focuses on brain tumor analysis using a combination of custom convolutional neural network (CNN) architectures, transfer learning, and image segmentation techniques The main goal is twofold: accurate brain tumor classification and tumor accurate zone segmentation from MRI images. The custom CNN image and pre-trained images are used and optimized for grayscale MRI images for classification. These models receive extensive training and evaluation, resulting in promising levels of accuracy. In parallel, the U-Net algorithm is used to achieve high tumor area segmentation accuracy. This comprehensive approach provides valuable insight into the specific diagnosis and location of brain tumors and contributes to advances in medical imaging studies
