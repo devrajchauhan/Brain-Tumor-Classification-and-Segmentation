@@ -60,11 +60,42 @@ This research is primarily concerned with the classification of brain tumors. Th
 In addition to custom CNNs, pre-trained models such as ResNet-18, ResNet-50, DenseNet121, VGG19, and VGG16 are adapted to the task. These models are modified to accommodate grayscale images and tailored to classify MRI images into one of three tumor categories. By leveraging transfer learning, the research explores whether pre-trained models can improve classification performance and reduce training time compared to training from scratch.
 
 
+![image](https://github.com/devrajchauhan/Brain-Tumor-Classification-and-Segmentation/assets/52530743/74d8065b-c1f3-471c-974d-0eb44154ba74)
+
+
+
 **Tumor Segmentation:**
 
 The work delves into tumor classification, an important aspect of brain tumor research. U-Net architecture is used to obtain remarkable specificity in defining tumor areas through architecture, transfer learning methods, and advanced classification models, the study seeks to improve the accuracy of brain tumor detection and localization. The goal is to provide valuable insights to medical professionals and researchers in medical imaging research, ultimately improving patient care and medical outcomes.
 
 
+![image](https://github.com/devrajchauhan/Brain-Tumor-Classification-and-Segmentation/assets/52530743/f11b95a4-9a6a-44b0-a8bc-22ff90a6e12e)
+
+
+
+
+
+
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+**Results:** 
+
+
+In our project, we have explored different approaches for brain tumor classification using transfer learning techniques and custom CNN architectures. Here's a detailed breakdown of the results weachieved:
+
+**Pre-trained Resnet18 Model:**
+We modified the Resnet18 architecture to accept 1-channel input.The model was trained with both segmented and unsegmented data. We used Stochastic Gradient Descent (SGD) as the optimizer with a learning rate scheduler and cross-entropy loss. The accuracy achieved on average over 10-fold cross-validation using complete MRI image data was approximately 78.63%.Additional metrics include an average precision of 79.50%, an average recall of 78.63%, and an average F1 score of 78.21%.
+
+**Custom CNN Maodel:**
+We used custom CNN architecture inspired by a research paper. The model used Xavier (Glorot) weight initialization and early stopping to improve training stability. Adam optimizer with a learning rate scheduler and cross-entropy loss were employed. We achieved an accuracy of 95.77% on the validation set.
+
+**Modified Pretrained DenseNet121 Model:**
+We loaded a pre-trained DenseNet121 model and modified it to accept 1-channel input. All layers of the model were made trainable. Adjustments were made to Batch Normalization layers. After training for 20 epochs, the model achieved an accuracy of 92.83%.
+
+**Modified Pretrained VGG16 Model:**
+We loaded a pre-trained VGG16 model and adapted it for 1-channel input. Specific layers were unfrozen for fine-tuning. After training for 20 epochs, the model achieved an accuracy of 92.50%
+
+**UNet for Segmentation:**
+We implemented a UNet architecture to segment tumor regions in MRI images. The segmentation achieved an accuracy of 99%.
+
 
 
