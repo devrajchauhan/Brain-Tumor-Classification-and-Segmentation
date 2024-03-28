@@ -40,6 +40,9 @@ This research is primarily concerned with the classification of brain tumors. Th
 
 In addition to custom CNNs, pre-trained models such as ResNet-18, ResNet-50, DenseNet121, VGG19, and VGG16 are adapted to the task. These models are modified to accommodate grayscale images and tailored to classify MRI images into one of three tumor categories. By leveraging transfer learning, the research explores whether pre-trained models can improve classification performance and reduce training time compared to training from scratch.
 
+
 **Tumor Segmentation:**
+
 The work delves into tumor classification, an important aspect of brain tumor research. U-Net architecture is used to obtain remarkable specificity in defining tumor areas through architecture, transfer learning methods, and advanced classification models, the study seeks to improve the accuracy of brain tumor detection and localization. The goal is to provide valuable insights to medical professionals and researchers in medical imaging research, ultimately improving patient care and medical outcomes.
+
 
